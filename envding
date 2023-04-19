@@ -25,7 +25,7 @@ Then do the following:
   4. Activate the ZOT environment via . /path/to/.bootenv
   5. Execute "export > {bcolors.OKGREEN}post{bcolors.ENDC}"
   6. Transfer these two files (ASCII) to the machine that can run this script
-  7. Execute "python3 envding.py --pre={bcolors.OKGREEN}pre{bcolors.ENDC} --post={bcolors.OKGREEN}post{bcolors.ENDC} --envfile={bcolors.OKGREEN}.zotboot{bcolors.ENDC}"
+  7. Execute "./envding --pre={bcolors.OKGREEN}pre{bcolors.ENDC} --post={bcolors.OKGREEN}post{bcolors.ENDC} --envfile={bcolors.OKGREEN}.zotboot{bcolors.ENDC}"
   8. Transfer the created .zotboot to z/OS (ASCII)
   9. Use the resulting output as a 'quicker' envfile to be sourced on your z/OS
  10. Or source that file from /etc/profile to enable it for all you users :)
